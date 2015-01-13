@@ -1,0 +1,21 @@
+/*CSS doc*/
+
+body{
+	background-color:blue;
+}
+
+h1{color: orange;
+
+}
+
+p{color:white;
+
+}
+
+div p{color:orange;
+
+}
+
+img{max-width: 100%;
+
+}
