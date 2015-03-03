@@ -1,0 +1,84 @@
+/* Universal styles, mobile-specific styles */
+p{
+	font-size: 4rem;
+	color:white;
+	display: none;
+}
+
+.mobile{
+	display: block;
+}
+
+body{
+	background-color: blue;
+}
+
+/* End of universal styles, mobile-specific styles */
+
+@media (min-width: 480px) {
+/* Tablet styles */
+
+	body{
+		background-color: green;
+	}
+
+	.mobile{
+		display: none;
+	}
+
+	.tablet{
+		display: block;
+
+/* End of tablet styles */
+	}
+
+@media (min-width: 768px) {
+/* Small desktop styles (don't need to include mobile if max width isn't defined) */
+
+	body{
+		background-color: red;
+	}
+
+	.tablet{
+		display:none;
+	}
+
+	.small-desktop{
+		display: block;
+	}
+
+/* End of small desktop styles */
+}
+
+@media (min-width: 992px) {
+/*Med desktop styles */
+
+	body{
+		background-color: yellow;
+	}
+
+	.small-desktop{
+		display: none;
+	}
+
+	.med-desktop{
+		display: block;
+	}
+
+/* End of med desktop styles */
+}
+
+@media (min-width: 1200px) {
+
+	body{
+		background-color: teal;
+	}
+
+	.med-desktop{
+		display: none;
+	}
+
+	.large-desktop{
+		display: block;
+	}
+}
